@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entrenamiento">
+        <item >Extremistas a tope</item>
+        <item>Agonia Maxima</item>
+        <item>Entrenamiento especial</item>
+        <item>Fuerza y longitud</item>
+    </string-array>
+</resources>

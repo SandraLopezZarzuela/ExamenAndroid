@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="298dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/layoutMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTRENAMIENTO"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <ListView
+            android:id="@+id/ContenlistView"
+            android:layout_width="331dp"
+            android:layout_height="352dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="343dp">
+
+    </FrameLayout>
+
+
+</RelativeLayout>
